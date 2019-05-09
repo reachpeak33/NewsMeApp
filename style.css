@@ -1,5 +1,6 @@
 body {
   text-align: center;
+ 
 }
 
 i {
@@ -17,8 +18,8 @@ i {
   position: absolute;
   top: -125px;
   overflow: hidden;
-  height: 270px;
-  width: 210px;
+  height: 300px;
+  width: 235px;
 }
 
 .circle {
@@ -40,7 +41,7 @@ i {
 }
 
 .circle.left {
-  left: -60px;
+  left: -35px;
 }
 
 .circle.right {
@@ -100,20 +101,20 @@ i {
 .frame {
   border: solid 2px;
   border-radius: 3px;
-  min-height: 300px;
+  min-height: 350px;
   padding: 15px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .card-img-top {
-  height: 200px;
+  height: 275px;
   width: 100%;
   object-fit: cover;
 }
 
 .footer {
-  background: grey;
+  background: #B5B7B3;
   display: flex;
   align-items: center;
   justify-content: space-between;
